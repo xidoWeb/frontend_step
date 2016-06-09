@@ -36,7 +36,7 @@ ___
 (node.js 사용시의 npm의 개념이나 여러 유사한 개념을 쉽게 이해하기 위해!)
 
 [ 서브라임텍스트 설치하러가기 http://sublimetext.com ](http://sublimetext.com)
-![sublimetext](./md_img/sublimetext_01.png)
+![sublimetext](./img/sublimetext_01.png)
 
 
 ___

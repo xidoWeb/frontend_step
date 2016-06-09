@@ -5,12 +5,12 @@
 1. 버전관리 기능 [Git / GitHub](./git/git_github.md)  
 1. web기초 [html, css](./html/html.md)
 
-[1. javascript 기초[javascript](./js/js.md)
-1. jquery익히기[jquery](./jquery/jquery.md)]()
+[]( javascript 기초[javascript](./js/js.md) )
+[]( jquery익히기[jquery](./jquery/jquery.md) )
 
 1. js기반의 서버사이드언어 [node.js](./node/node.js.md)  
 1. js빌드 [grunt_gulp](./grunt_gulp/grunt_gulp.md) 
 
 
-![1. 서버사이드[php](./php/php.md)]
-![1. DB관리[sql](./sql/sql.md)]
+[]( 1. 서버사이드[php](./php/php.md) )
+[]( 1. DB관리[sql](./sql/sql.md) )

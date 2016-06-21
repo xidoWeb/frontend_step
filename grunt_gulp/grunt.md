@@ -8,13 +8,13 @@ ___
 ## GRUNT 설치
 1. npm install -g grunt-cli  // mac: sudo npm install -g grunt-cli
   - 컴퓨터 전역에 그런트의 기본 설치
-2. npm install grunt --save-dev //mac: 항상 sudo를 입력후 앞내용을 쓴다.
+1. npm install grunt --save-dev //mac: 항상 sudo를 입력후 앞내용을 쓴다.
   - 사용하려는 폴더내부에 실제 그런트 프로그램 설치
-3. npm init
-  - 입력하여 담다!!!! (package.json 파일을 생성하여 사용할 수 있도록 처리)
+1. npm init
+  - 입력하여 담다!!!! (package.json 파일을 생성하여 사용하는 모듈 정의 및 처리)
   - 여러번 설치 및 필요한 부분을 세팅하게되어있다. 관심없으면 엔터만 주르륵~~
   - 마지막 저장유무 질문시 yes(응답없으면 컨트롤c 눌러서 나가기~)
-
+1. 
 
 
 

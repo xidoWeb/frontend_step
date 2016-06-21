@@ -22,7 +22,7 @@ __[git 사이트이동하기](https://git-scm.com)__
 
 ## 설치 확인하기
 1. node.js와 npm이 올바르게 설치되어 있는지 확인해보자!
-( npm이란 node패키지를 관리하는 모듈이라고하며, 쉽게말해서 node.js를 사용시 편리하게 도와주는 기능을 관리하는 도구이다. )
+( __npm__이란 node패키지를 관리하는 모듈이라고하며, 쉽게말해서 node.js를 사용시 편리하게 도와주는 기능을 관리하는 도구이다. )
 1. <span style="color:#f07">터미널</span> 또는 <span style="color:#f07">gitbash</span>를 실행한 후 <span style="color:#07f">node --v &amp;&amp; npm --v</span> 입력 후 엔터키를 누른다. (버전을 확인할 수 있다.)
 ![git node/npm 버전확인](./img/git_node_01.jpg)
 

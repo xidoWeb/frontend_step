@@ -6,6 +6,7 @@
 
 * [__간편안내서 확인하려가기__](https://rogerdudler.github.io/git-guide/index.ko.html)  
 * [__Git &amp; Github 가이드__](https://backlogtool.com/git-guide/kr)
+* [__Git &amp; Github 협업작업 가이드__](http://nolboo.kim/blog/2013/08/29/how-to-collaborate-on-github/)
 
 ## 사용하려면!
 1. [Git 계정등록하기](https://github.com)

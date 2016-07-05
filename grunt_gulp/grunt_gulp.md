@@ -1,7 +1,9 @@
 # grunt &amp; gulp 익히기
 
 ## GRUNT &amp; GULP 란?  
-javascript task runner로 javascript build tool,<br>
+javascript task runner로 javascript build tool 이라 불린다. <br>
+즉, 프로그램작업 및 개발을 좀 더 쉽고 빠르고 편하게 작업할 수 있도록 도와주는 기능을한다.<br>
+대표적으로, minify(축약), uglify(압축), concat(모음), compile(변환), 실시간 감시 기능 등이 있다.
 할수있는 일: concatenating, minifying, validating 등등등
  
 ### 기초 사용하기전!! 환경설치(간단이해)

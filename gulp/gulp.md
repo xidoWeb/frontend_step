@@ -10,6 +10,13 @@
  **validating(검사)** 
  기능 등이 있다.    
 
+***terminal(cli)에서***   
+* mac의 경우 설치시 앞부분에 sudo 를 입력한다.  
+* **install**은 **i**로 요약할 수 있다.  
+* **--global**은 -g로 요약 할 수 있다.  
+* **--save-dev** 는 **-D**로 요약할 수 있다.
+
+## 기초이해
 
 ### 기초 사용하기전!! 환경설치(간단이해)
 1. Git을 설치한다. [git-scm](https://git-scm.com)   
@@ -90,6 +97,8 @@ $ gulp ↵ // 테스트_1과 같은 결과물 도출
 
 
 ___
+__[gulpfile.js 기본동작기능 익히기](./gulp_task.md)__  
+__[gulp step2_sass 기능 익히기](./gulp_sass.md)__  
 __[grunt / gulp 메인 돌아가기](./grunt_gulp.md)__  
 __[처음으로 돌아가기](../README.md)__
 

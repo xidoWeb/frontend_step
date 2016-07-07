@@ -50,7 +50,7 @@ $ npm init -y ↵ // mac의 경우 npm 앞에 sudo, 내용은 추후 변경할 �
 - **gulp**를 사용/ 컨트롤할 **gulpfile.js**파일생성
 
 ```cli
-$ toucy gulpfile.js	// 해당폴더에서 직접 생성시켜도 무방
+$ touch gulpfile.js	// 해당폴더에서 직접 생성시켜도 무방
 ```
 
 - 동작 테스트(gulpfile.js파일을 열어 작성)
@@ -70,7 +70,7 @@ gulp.task('hello', function(){
 ```cli
 $ gulp hello ↵	// 동작상태를 파악
 ```
-![gulp hello](./img/gulp_task_t.png)
+![gulp hello](img/gulp_task_t.png)
 
 ##### 테스트 내용 설명
 1. node_modules에서 gulp를 가져와서 사용( **require('gulp')** )

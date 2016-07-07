@@ -24,14 +24,58 @@
 	Node.js에서 사용되는 모듈을 패키지로 모아놓은 곳)
 **<https://www.npmjs.com>**
 
-### sass모듈 설치
-- **terminal**에서 모듈을 찾아 설치
+### sass모듈 설치/ 실행
+- **terminal**에서 모듈을 찾아 설치(sass, autoprefixer, rename)
 
 ```cli
 $ npm install gulp-sass --save-dev ↵ // mac의 경우 npm 앞에 sudo 입력
+$ npm install gulp-autoprefixer --save-dev 	 ↵ 	// mac의 경우 npm 앞에 sudo 입력
+$ npm install gulp-rename -- save-dev 	↵ 	// mac의 경우 npm 앞에 sudo 입력
 ```
-- **gulpfile.js**에서 내용 작성하기
-- 
+- **gulpfile.js**에서 내용 작성하기  
+
+```javascript
+var gulp = require('gulp');  		// 항상 기본 모듈로써 호출해 주어야 함 
+var sass = require('gulp-sass');  // sass 모듈 호출
+var rename = require('gulp-rename');
+var autoprefixer = require('gulp-autoprefixer');
+
+// sass 실행
+gulp.task('sass', function(){
+	return gulp.src('./src/scss/*')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers;['last 2 versions']
+		}))
+		.pipe(gulp.dest('./dist/css/'));
+});
+
+// sass 압축
+
+gulp.task('sass:compressed', function(){
+	return gulp.src('./src/scss/*')
+		.pipe(sass({outputStyle:'compressed'})
+		.on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers;['last 2 versions']
+		}))
+		.pipe(rename({suffix: '.min'}))
+		.pipe(gulp.dest('./dist/css/'));
+});
+
+// 실시간 감시기능 만들기
+gulp.task('watch', function(){
+	gulp.watch('./src/scss/*', ['sass']);
+});
+
+gulp.task('default' ['sass', 'watch']);		// gulp 명령어 실행시 **sass**, **watch** 실행
+```
+
+- **terminal**에서 **gulp** 실행
+
+```cli
+$ gulp 	↵
+```
 
 
 
